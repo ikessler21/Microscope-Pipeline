@@ -1,0 +1,6 @@
+# files and folders that should not be uploaded to github
+.venv/
+__pycache__/
+DNX64-Python-/
+frames/
+stitched_image.jpg
