@@ -4,12 +4,11 @@ import numpy as np
 
 class ImageCapture:
 
-    def __init__(self):
+    def __init__(self, CAM_INDEX=0):
         self.folder_path = 'frames'
         if not os.path.exists(self.folder_path):
             os.makedirs(self.folder_path)
 
-        CAM_INDEX = 0  # Assuming webcam index is 0, change if necessary
         self.vidcap = cv2.VideoCapture(CAM_INDEX)
 
         if not self.vidcap.isOpened():
