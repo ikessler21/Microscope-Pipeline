@@ -48,7 +48,3 @@ The runtime of the program depends on the area size you select. Typical runtimes
 ### 5. Results
 
 Once the program completes, a window will display the detected particles in bounding boxes, along with additional information for analysis.
-
-## Conclusion
-
-This project provides a streamlined method to detect microplastics in soil samples. After setting up the camera and running the program, you can analyze the results for microplastic detection. If you encounter any issues with the camera setup or running the program, refer to the **DNX-Python-API** documentation and the Dino-Lite resources for further assistance.
